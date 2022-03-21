@@ -1,0 +1,48 @@
+.box {
+  display: block;
+  margin: 6rem auto;
+  width: 40%;
+}
+.oyna {
+  width: 50%;
+  height: 6rem;
+  padding: 0 2rem;
+  color: black;
+  /* background-color: #fff; */
+  text-align: right;
+  border-radius: 0.4rem;
+  font-size: 2.6rem;
+  padding-top: 0.6rem;
+  overflow: auto;
+}
+.line {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+.item {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+  /* color: #fff; */
+  text-align: center;
+  align-items: center;
+  margin: 1.2rem;
+  justify-content: center;
+  font-size: 2.5rem;
+  padding-top: 1.3rem;
+}
+.item:hover {
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+}
+.javob,
+.qoshish,
+.ayrish,
+.kopaytirish,
+.bolish {
+  background-color: coral;
+  color: #fff;
+}
